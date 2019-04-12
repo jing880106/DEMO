@@ -1,0 +1,83 @@
+body {
+    background-color: #CCDDFF;
+}
+
+#header {
+    background-color: #CCEEFF;
+    width: 50%;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 30px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.h-img {
+    padding: 30px;
+}
+
+#footer {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #CCEEFF;
+    color: blue;
+    box-sizing: border-box;
+    padding: 36px 0;
+    text-align: center;
+    word-break: break-word;
+    letter-spacing: 0;
+    font-size: 20px;
+}
+
+.leftside {
+    float: left;
+}
+
+.rightside {
+    padding-top: 10px;
+    padding-left: 50px;
+    float: left;
+    width: 480px;
+    font-family: 微軟正黑體;
+}
+
+.photo {
+    width: 500px;
+    height: 300px;
+    border-style: double;
+    border-top-color: #ff5809;
+    border-bottom-color: #ff5809;
+    border-left-color: #eac100;
+    border-right-color: #eac100;
+    border-width: 10px;
+    border-radius: 50px;
+    margin: 5px 10px 5px 10px;
+}
+
+.details {
+    margin: 40px;
+    font-family: 微軟正黑體;
+    font-size: 20px;
+}
+
+.gymmap {
+    width: 50%;
+    height: 400px;
+    border-style: dashed;
+    border-width: 10px;
+    border-top-color: #ff5809;
+    border-bottom-color: #ff5809;
+    border-left-color: #d9b300;
+    border-right-color: #d9b300;
+    border-radius: 20px;
+    float: left;
+}
+
+.d1 {
+    text-align: left;
+    margin: 20px;
+
+}

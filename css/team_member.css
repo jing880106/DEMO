@@ -1,0 +1,85 @@
+/*人物圖片*/
+.photo {
+    width: 550px;
+    height: 400px;
+    opacity: 0.6;
+    border-style: dotted;
+    border-width: 8px;
+    border-top-color: #0080ff;
+    border-bottom-color: #0080ff;
+    border-left-color: #921aff;
+    border-right-color: #921aff;
+    border-radius: 15px;
+}
+
+/*table框架-圖片*/
+.block1 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/*table框架-人物*/
+.block2 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+
+}
+
+.photo:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+    opacity: 1.0;
+}
+
+/*名字*/
+.p1 {
+    font-size: 30px;
+    font-family: 微軟正黑體;
+    letter-spacing: 3px;
+}
+
+/*工作內容*/
+.p2 {
+    font-size: 18px;
+    font-family: 微軟正黑體;
+    margin-right: 250px;
+    line-height: 35px;
+    letter-spacing: 3px;
+}
+
+#footer {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #CCEEFF;
+    color: blue;
+    box-sizing: border-box;
+    padding: 36px 0;
+    text-align: center;
+    word-break: break-word;
+    letter-spacing: 0;
+    font-size: 20px;
+}
+
+body {
+    background-color: #CCDDFF;
+}
+
+#header {
+    background-color: #CCEEFF;
+    width: 50%;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 30px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.h-img {
+    padding: 30px;
+}

@@ -1,0 +1,80 @@
+#footer {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #CCEEFF;
+    color: blue;
+    box-sizing: border-box;
+    padding: 36px 0;
+    text-align: center;
+    word-break: break-word;
+    letter-spacing: 0;
+    font-size: 20px;
+}
+
+body {
+    background-color: #CCDDFF;
+    font-family: 微軟正黑體;
+}
+
+.nav-link {
+    color: #337ab7;
+}
+
+#header {
+    background-color: #CCEEFF;
+    width: 50%;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 30px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.h-img {
+    padding: 30px;
+}
+
+.limg {
+    width: 100px;
+    margin: 20px;
+    border-radius: 0px 30px 30px 0px;
+    border-style: groove;
+    border-width: 8px;
+    border-top-color: #ff60af;
+    border-bottom-color: #ffaad5;
+    border-left-color: #ff60af;
+    border-right-color: #ffaad5;
+}
+
+.limg:hover {
+    width: 200px;
+}
+
+.font {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 50px;
+    float: left;
+    font-size: 30px;
+    word-break: break-all;
+}
+
+#imgBig {
+    border-radius: 20px 0px 20px 0px;
+    border-style: groove;
+    border-width: 15px;
+    border-top-color: #7280c4;
+    border-bottom-color: #94b3ed;
+    border-left-color: #7280c4;
+    border-right-color: #94b3ed;
+}
+
+.button {
+    background-color: pink;
+    border-radius: 60px;
+    font-size: 26px;
+    padding: 10px;
+}

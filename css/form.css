@@ -1,0 +1,70 @@
+.b1 {
+    margin: 20px;
+}
+
+.d1 {
+    font-size: 20px;
+    font-family: 微軟正黑體;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+
+.data {
+    border-radius: 15px;
+}
+
+#button {
+    font-size: 16px;
+    text-align: center;
+    background-color: #99BBFF;
+    border-radius: 15px;
+    width: 100px;
+    font-family: 微軟正黑體;
+    letter-spacing: 3px;
+}
+
+body {
+    background-color: #CCDDFF;
+}
+
+#header {
+    background-color: #CCEEFF;
+    width: 50%;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 30px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.h-img {
+    padding: 30px;
+}
+
+#footer {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #CCEEFF;
+    color: blue;
+    box-sizing: border-box;
+    padding: 36px 0;
+    text-align: center;
+    word-break: break-word;
+    letter-spacing: 0;
+    font-size: 20px;
+}
+
+.left1 {
+    float: left;
+}
+
+.right1 {
+    float: right;
+}
+
+#map1 {
+    margin-right: 60px;
+}
