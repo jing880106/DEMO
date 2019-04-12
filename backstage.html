@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/123.css">
+<link rel="stylesheet" href="css/backstage.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BackStage</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script>
+        function fun(img)
+        {           
+            var num = parseInt(img.id.substr(3, 1));
+            
+            document.getElementById("imgBig").setAttribute("src", img.getAttribute("src"));
+            
+            document.getElementById("detailtext").innerText = document.getElementById("hid" + num).value;
+            
+        }
+    </script>
+</head>
+<style></style>
+
+<body>
+    <!-- /header -->
+    <header>
+        <div class="h-img">
+            <img src="image/logo.png" alt="中原">
+        </div>
+        <div style="padding-top: 30px;">
+            <div id="header">
+                <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">回首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sport.html">體育館</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="backstage.html">影片花絮</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="team_member.html">組員介紹</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="form.html">意見回饋</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- /header end -->
+    <div style="float:left;">
+        <div>
+            <img src="image/room.png" alt="" class="limg" style="margin-left: 10px;margin-top: 40px;" id="img1" onmouseover="fun(this)">
+        </div>
+        <div>
+            <img src="image/sport.png" alt="" class="limg" style="margin-left: 90px;" id="img2" onmouseover="fun(this) ">
+        </div>
+        <div>
+            <button type="button" class="button" data-toggle="modal" data-target=".bd-example-modal-xl">幕後花絮</button>
+            <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content" style="height: 0px;">
+                        <video class="videoStyle" controls>
+                            <source src="backstage.mp4" type="video/mp4">
+                            Your browser doesn't support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <img src="image/outside.png" alt="" class="limg" style="margin-left:10px ;" id="img3" onmouseover="fun(this)">
+        </div>
+        <div>
+            <img src="image/bath.png" alt="" class="limg" style="margin-left: 90px;" id="img4" onmouseover="fun(this) ">
+        </div>
+        <div>
+            <img src="image/swim.png" alt="" class="limg" style="margin-left: 10px;" id="img5" onmouseover="fun(this)">
+        </div>
+    </div>
+    <div style="float: left; margin-left: 180px;margin-top: 60px;margin-bottom: 60px;">
+        <img id="imgBig" style="width: 600px; " src="image/room.png">
+    </div>
+    <div id="detailtext" class="font">
+        <h1>影片拍攝紀錄</h1>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <div style="clear: both;"></div>
+    <input type="hidden" id="hid1" value="從手機鬧鈴聲開始，用簡短的轉場，讓場景從房間換成體育館">
+    <input type="hidden" id="hid2" value="接住男孩後停格，表現出兩人深情對望的效果">
+    <input type="hidden" id="hid3" value="男主細心的解說，讓大家知道中原大學設備的多樣性與完整性">
+    <input type="hidden" id="hid4" value="藉由男主的話帶出中原環境的優越，並接著轉場到泳池邊">
+    <input type="hidden" id="hid5" value="男孩向主角介紹泳池並可以看出泳池非常之乾淨 ">
+    　
+    <!-- footer -->
+    <footer>
+        <div id="footer">
+            <a href="index.html"> © 2019多媒體期中專案</a> <br>
+            <a href="sport.html">體育館</a><span>｜</span><a href="backstage.html">影片花絮</a><span>｜</span><a href="team_member.html">組員介紹</a><br>
+        </div>
+        <div class="clear"></div>
+    </footer>
+    <!-- footer end -->
+    <script src="light.js" type="text/javascript" charset="utf-8" async defer></script>
+    <!--BACKtoTOP-START-->
+    <a style="display:scroll;position:fixed;bottom:20%;right:1%;" href="" title="" onFocus="if(this.blur)this.blur()">
+        <img alt='' border='0' onmouseover="this.src='http://4.bp.blogspot.com/-AKP9Gl_ets0/TmzrRBJPg_I/AAAAAAAADpY/M3KVvsDNJbA/s1600/Top.png'" src="http://1.bp.blogspot.com/-_gUa3K1wDNo/TmzrHROhBVI/AAAAAAAADpU/vOKm_7zL8DQ/s1600/Top_medium.png" onmouseout="this.src='http://1.bp.blogspot.com/-_gUa3K1wDNo/TmzrHROhBVI/AAAAAAAADpU/vOKm_7zL8DQ/s1600/Top_medium.png'" /></a>
+    <!--BACKtoTOP-STOP-->
+</body>
+
+</html>
